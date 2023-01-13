@@ -1,17 +1,18 @@
 //The first task (1)
 
-// const userName = prompt('Type your name')
-// const surname = prompt('Type your Surname')
-// const lastName = prompt('Type your Lastname')
-// const password = Number(prompt('Type your password'))
-// if (password === 777) {
-//   alert('your accout now is awailable', password);
-// } else if (password === 'geektech') {
-//   alert('successfully', password)
-// }
-// else {
-//   alert('Error', password)
-// }
+const userName = prompt('Type your name')
+const surname = prompt('Type your Surname')
+const lastName = prompt('Type your Lastname')
+const password = Number(prompt('Type your password'))
+
+if (password === 777) {
+  alert('your accout now is awailable', password);
+} else if (password === 'geektech') {
+  alert('successfully', password)
+}
+else {
+  alert('Error', password)
+}
 
 
 //The second task (2)
